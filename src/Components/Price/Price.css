@@ -1,0 +1,89 @@
+.form1 {
+  background-color: #30a3f1;
+  padding-left: 50px;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 20px;
+  width: 650px;
+  height: 650px;
+  padding-top: 50px;
+}
+.qt {
+  padding-left: 130px;
+}
+input {
+  width: 86%;
+  padding: 15px;
+  /* margin: 4px; */
+  box-sizing: border-box;
+  padding-left: 60px;
+  border-radius: 15px;
+}
+
+.Icon-inside {
+  position: relative;
+}
+
+.Icon-inside i {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  padding: 10px 10px;
+  color: #30a3f1;
+}
+.form-control {
+  width: 50%;
+}
+.bt1 {
+  text-align: center;
+  width: 45%;
+  margin-left: 125px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+textarea::placeholder {
+  padding-left: 55px;
+}
+.text{
+font-size:30px;
+font-weight: 700;
+}
+/* .phone{
+margin-bottom: 10px;
+}
+.email{
+margin-bottom: 10px;
+}
+.name{
+    margin-top: 10px;
+} */
+.phone {
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  input {
+    width: 46%;
+    padding: 15px;
+    /* margin: 4px; */
+    box-sizing: border-box;
+    padding-left: 60px;
+    border-radius: 15px;
+  }
+  textarea{
+  width: 46%;
+  }
+  .bt1{
+    margin-left: 25px;
+    width: 25%;
+  }
+  
+  .form1 {
+    background-color: #30a3f1;
+    
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 20px;
+    
+    padding-top: 50px;
+  }
+}
